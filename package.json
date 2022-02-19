@@ -1,7 +1,7 @@
 {
-  "name": "form-demo",
+  "name": "react-demo",
   "version": "1.0.0",
-  "description": "A React demo project using Formik to manage forms.",
+  "description": "A React demo project using React with TypeScript.",
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"

@@ -27,7 +27,7 @@ module.exports = {
 	},
 	plugins: [new MiniCssExtractPlugin(), new HtmlWebpackPlugin({
 		template: path.resolve(__dirname, 'src', 'template.html'),
-		title: 'React Formik',
+		title: 'React Demo',
 	})],
 	resolve: {
 		extensions: ['.tsx', '.ts', '.js'],
