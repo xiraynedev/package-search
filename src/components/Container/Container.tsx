@@ -1,10 +1,12 @@
 import {FC} from 'react';
-import {Login} from '../Login/Login';
+import {NpmSearch} from '../NpmSearch/NpmSearch';
+import {store} from '../../redux/store';
+import { Provider} from 'react-redux';
 
 export const Container: FC = () => {
   return (
-    <div className="container">
-     <Login />
-    </div>
+    <Provider store={store}>
+        <NpmSearch />
+    </Provider>
   );
 };
