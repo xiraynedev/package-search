@@ -28,7 +28,7 @@ export const NpmSearch: FC = () => {
       <form onSubmit={handleSubmit} className='w-9/12 md:max-w-2xl mx-auto'>
         <div className="flex flex-col p-4">
           <input type="search" placeholder="Enter package name..."
-                 className="border p-2 mb-3" value={packageName} onChange={handleChange}/>
+                 className="border p-2 mb-3 outline-blue-200" value={packageName} onChange={handleChange}/>
           <button type="submit" className="border-red-50 border p-2 bg-blue-900 text-white tracking-widest">Submit
           </button>
         </div>
