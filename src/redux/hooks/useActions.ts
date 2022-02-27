@@ -4,6 +4,6 @@ import {actions} from '../actions';
 
 export const useActions = () => {
   return bindActionCreators(actions, useDispatch());
-});
+};
 
 
