@@ -1,7 +1,7 @@
 {
-  "name": "react-demo",
+  "name": "package-search",
   "version": "1.0.0",
-  "description": "A demo project using React with TypeScript and Redux.",
+  "description": "A project using React with TypeScript and Redux to fetch NPM packages.",
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
@@ -10,8 +10,9 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.17.5",
-    "@types/react": "^17.0.39",
-    "@types/react-dom": "^17.0.11",
+    "@types/node": "^18.7.16",
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
     "@types/react-redux": "^7.1.22",
     "@types/uuid": "^8.3.4",
     "autoprefixer": "^10.4.8",
@@ -23,7 +24,7 @@
     "sass-loader": "^12.6.0",
     "tailwindcss": "^3.0.23",
     "ts-loader": "^9.2.6",
-    "typescript": "^4.5.5",
+    "typescript": "^4.8.3",
     "webpack": "^5.69.1",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.7.4",
@@ -31,8 +32,8 @@
   },
   "dependencies": {
     "axios": "^0.26.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-redux": "^7.2.6",
     "redux": "^4.1.2",
     "redux-thunk": "^2.4.1",
