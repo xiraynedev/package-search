@@ -1,5 +1,5 @@
-![React](https://img.shields.io/badge/React-17.0.2-blue)
-![ReactDOM](https://img.shields.io/badge/ReactDOM-17.0.2-blue)
+![React](https://img.shields.io/badge/React-18.2.0-blue)
+![ReactDOM](https://img.shields.io/badge/ReactDOM-18.2.0-blue)
 
 # package-search
 
