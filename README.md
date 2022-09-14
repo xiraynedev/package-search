@@ -1,5 +1,6 @@
 ![React](https://img.shields.io/badge/React-18.2.0-blue)
 ![ReactDOM](https://img.shields.io/badge/ReactDOM-18.2.0-blue)
+![Redux](https://img.shields.io/badge/Redux-4.1.2-red)
 
 # package-search
 
