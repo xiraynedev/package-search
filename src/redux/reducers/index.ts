@@ -13,13 +13,10 @@ const packageReducer = (state = initialState, action: Action): PackageState => {
   switch (action.type) {
     case ActionType.SEARCH_PACKAGES:
       return {loading: true, error: '', data: []};
-      break;
     case ActionType.SEARCH_PACKAGES_SUCCESS:
       return {loading: false, error: '', data: action.payload};
-      break;
     case ActionType.SEARCH_PACKAGES_ERROR:
       return {loading: false, error: action.payload, data: []};
-      break;
     default:
       return state;
   }
