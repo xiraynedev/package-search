@@ -25,7 +25,7 @@ module.exports = {
 	},
 	plugins: [new MiniCssExtractPlugin(), new HtmlWebpackPlugin({
 		template: path.resolve(__dirname, 'src', 'template.html'),
-		title: 'React Demo',
+		title: 'Package Search',
 	})],
 	resolve: {
 		extensions: ['.tsx', '.ts', '.js'],

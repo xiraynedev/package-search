@@ -4,7 +4,7 @@
 
 # package-search
 
-## See the project live [here.](https://package-search.netlify.app/)
+## See the project live [here](https://package-search.netlify.app/)
 
 This project uses React with TypeScript to search the NPM Registry
 for any package names typed in the search field. If packages are found, they are
