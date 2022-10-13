@@ -1,7 +1,7 @@
-import { createRoot } from "react-dom/client";
-import "./global.scss";
-import { Container } from "./components/Container/Container";
+import { createRoot } from 'react-dom/client';
+import Container from '../components/Container/Container';
+import './global.scss';
 
-const root = createRoot(document.getElementById("root") as HTMLDivElement);
-
-root.render(<Container />);
+createRoot(document.getElementById('root') as HTMLDivElement).render(
+  <Container />,
+);

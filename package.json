@@ -1,12 +1,12 @@
 {
   "name": "package-search",
   "version": "1.0.0",
-  "description": "A project using React with TypeScript and Redux to fetch NPM packages.",
+  "description": "A project using React with TypeScript and the Redux Toolkit to fetch NPM packages.",
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
-  "author": "Raymond Cortes",
+  "author": "xiraynedev",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.17.5",
@@ -14,7 +14,6 @@
     "@types/react": "^18.0.18",
     "@types/react-dom": "^18.0.6",
     "@types/react-redux": "^7.1.22",
-    "@types/uuid": "^8.3.4",
     "autoprefixer": "^10.4.8",
     "css-loader": "^6.6.0",
     "html-webpack-plugin": "^5.5.0",
@@ -32,12 +31,8 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
-    "axios": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-redux": "^8.0.2",
-    "redux": "^4.1.2",
-    "redux-thunk": "^2.4.1",
-    "uuid": "^9.0.0"
+    "react-redux": "^8.0.2"
   }
 }
